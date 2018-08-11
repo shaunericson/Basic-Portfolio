@@ -51,17 +51,6 @@ header {
     overflow: hidden;
 }
 
-#main-area-portfolio {
-    /* clear: both; */
-    width: 910px;
-    /* height: 650px; */
-    /* margin: 25px 15% 25px 33.3%; */
-    margin: 25px auto;
-    background-color: #ffffff;
-    padding: 25px;
-    overflow: hidden;
-}
-
 .image {
     width: 200px;
     position: relative;
@@ -145,4 +134,22 @@ footer {
 #copyright {
     display: table-cell;
     vertical-align: bottom;
+}
+
+a:link {
+    color: gray;
+}
+a:visited {
+    color: rgb(69, 66, 67);
+}
+
+a:hover {
+    color: rgb(69, 66, 67);
+}
+a:active {
+    color: rgb(69, 66, 67);
+
+}
+a {
+    text-decoration: none;
 }
